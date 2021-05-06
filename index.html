@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapperClass">
+        <img src="pingpong.jpg">
+        <h5>ping pong score keeper</h5>
+        <h1 id="scorer"><span id="p1s">0</span> to <span id="p2s">0</span></h1>
+        <div>use the buttons below to keep score</div>
+        <label for="rounds">Playing to:</label>
+
+        <select name="rounds" id="rounds">
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <div class="btn">
+            <button id="btnplayer1">+1 Player One</button>
+            <button id="btnplayer2">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

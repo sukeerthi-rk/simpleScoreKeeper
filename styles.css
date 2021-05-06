@@ -1,0 +1,16 @@
+.wrapperClass{
+   margin-top: 100px;
+   margin-left: 500px;
+   width:280px;
+   border: 2px solid black;
+   padding: 10px;
+}
+h5{
+    margin:0;
+}
+.btn{
+    margin-top: 5px;
+}
+#scorer{
+    font-size: 50px;
+}
